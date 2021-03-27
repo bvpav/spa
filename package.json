@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "name": "spa",
+  "version": "1.0.0",
+  "description": "single page app",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bvpav/spa.git"
+  },
+  "author": "bvpav",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/bvpav/spa/issues"
+  },
+  "homepage": "https://github.com/bvpav/spa#readme"
+}
