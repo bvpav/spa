@@ -6,7 +6,7 @@ This is a single page javascript soydev web _"application"_.
 
 ## Running
 
-Do a `npm install`, followed by an `npm start` and visit the url shown by the output.
+Do an `npm install`, followed by an `npm start` and visit the url shown by the output.
 
 ## License
 
