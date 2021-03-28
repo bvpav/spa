@@ -11,6 +11,6 @@ export default class extends AbstractView {
     return `
             <h1>1 Post</h1>
             <p>You are viewing a single post</p>
-        `;
+    `;
   }
 }
