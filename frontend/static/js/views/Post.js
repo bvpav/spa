@@ -15,8 +15,7 @@ export default class extends AbstractView {
         <h1>${post.title}</h1>
         <p>${post.content}</p>
       `;
-    } else {
-      return `<a href="/posts" data-link>&lt; Back</a> <h1>404 NOT Found ;-;`;
     }
+    return '<a href="/posts" data-link>&lt; Back</a> <h1>404 NOT Found ;-;';
   }
 }
