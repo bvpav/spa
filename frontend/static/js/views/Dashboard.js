@@ -1,7 +1,8 @@
-import AbstractView from './AbstractView';
+import AbstractView from './AbstractView.js';
 
 export default class extends AbstractView {
     constructor() {
+        super();
         this.setTitle('Dashboard');
     }
 
@@ -16,7 +17,7 @@ export default class extends AbstractView {
                 tortor. Mauris vel lacinia velit.
             </p>
             <p>
-                <a href='/posts' data-link>View recent posts</a>/
+                <a href='/posts' data-link>View recent posts</a>.
             </p>
         `
     }
