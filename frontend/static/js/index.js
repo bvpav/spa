@@ -1,5 +1,5 @@
 import Dashboard from './views/Dashboard.js';
-import Posts from './views/Posts.js';
+import PostList from './views/PostList.js';
 import PostView from './views/PostView.js';
 import Settings from './views/Settings.js';
 
@@ -15,7 +15,7 @@ const getParams = (match) => {
 const router = async () => {
   const routes = [
     { path: '/', view: Dashboard },
-    { path: '/posts', view: Posts },
+    { path: '/posts', view: PostList },
     { path: '/posts/:id', view: PostView },
     { path: '/settings', view: Settings },
   ];
