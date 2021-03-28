@@ -12,5 +12,8 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    'no-console': 'off', // very smooth brain
+    'class-methods-use-this': ['error', { exceptMethods: ['getHTML'] }],
+    'import/extensions': 'off',
   },
 };
