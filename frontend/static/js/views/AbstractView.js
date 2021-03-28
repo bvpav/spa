@@ -6,7 +6,7 @@ export default class {
   }
 
   static setTitle(title) {
-    document.title = title;
+    document.title = `SPA / ${title}`;
   }
 
   async getHTML() {
