@@ -3,7 +3,7 @@ import AbstractView from './AbstractView.js';
 export default class extends AbstractView {
   constructor(params) {
     super(params);
-    this.setTitle('Post');
+    AbstractView.setTitle('Post');
   }
 
   async getHTML() {
